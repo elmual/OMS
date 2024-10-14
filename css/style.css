@@ -1,0 +1,73 @@
+html, body{
+    height: 100%;
+}
+
+.ico:hover{
+    font-size: 32px;
+    transition: .5s;
+}
+.lay{
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.slide-container{
+    max-width: 2000px;
+    width: 100%;
+    padding: 40px 0;
+}
+.slide-content{
+    margin: 0 20px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.image-content,
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+.image-content{
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+}
+
+.nav-link{
+    font-size: 18px;
+}
+
+.swiper-navBtn{
+    transition: color .3s ease;
+}
+.swiper-navBtn:hover{
+    color: skyblue;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+    font-size: 40px;
+}
+.swiper-button-next{
+    right: 0;
+}
+.swiper-button-prev{
+    left: 0;
+}
+.swiper-pagination-bullet{
+    color: skyblue;
+    opacity: 1;
+}
+.swiper-pagination-bullet-active{
+    background-color: #4070F4;
+}
+.footer2{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 30px;
+    padding-top: 8px;
+    
+}

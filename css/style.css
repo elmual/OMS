@@ -69,5 +69,17 @@ html, body{
     bottom: 0;
     height: 30px;
     padding-top: 8px;
-    
+}
+.attachment{
+    height: 200px;
+    width: 100%;
+    background: url(../img/gg6.png) center / cover fixed;
+}
+.box{
+    cursor: pointer;
+    scale: 1;
+    transition: .2s;
+}
+.box:hover{
+    scale: 1.2;
 }
